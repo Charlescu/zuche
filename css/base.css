@@ -1,0 +1,105 @@
+@font-face {
+    font-family: 'pingfang';
+    src: url('../font/PingFang.ttf') format('truetype'),
+}
+
+html,
+body {
+    font-family: 'pingfang', sans-serif;
+    width: 100%;
+    position: relative;
+    font-size: 0.24rem;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(247, 247, 248);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+input[type=color],
+input[type=date],
+input[type=datetime-local],
+input[type=datetime],
+input[type=email],
+input[type=month],
+input[type=number],
+input[type=password],
+input[type=search],
+input[type=tel],
+input[type=text],
+input[type=time],
+input[type=url],
+input[type=week],
+select,
+textarea {
+    background: inherit;
+    border: none;
+    padding: 0;
+    padding-left: 0;
+    font-size: 0.32rem;
+    margin-bottom: 0;
+    height: auto;
+    font-size: 0.24rem;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    outline：none;
+}
+
+input:focus {
+    outline: none;
+}
+
+
+
+header {
+    width: 7.5rem;
+    height: 0.88rem;
+    line-height: 0.88rem;
+    background-color: #EBEBEB;
+    text-align: center;
+}
+
+.fanhui_box {
+    position: absolute;
+    line-height: 0.88rem;
+    left: 0.18rem;
+    vertical-align: middle;
+}
+
+.fanhui_icon {
+    vertical-align: middle;
+    margin-top: -0.08rem;
+    width: 0.2rem;
+    height: 0.36rem;
+    line-height: 0.88rem;
+}
+
+.fanhui_text {
+    margin-left: 0.24rem;
+    height: 0.88rem;
+    line-height: 0.88rem;
+    font-size: 0.26rem;
+    color: #FF7E00;
+    display: inline-block;
+}
+
+
+.header_title {
+    font-size: 0.28rem;
+    text-align: center;
+}

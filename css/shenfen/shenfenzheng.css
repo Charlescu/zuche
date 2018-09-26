@@ -1,0 +1,110 @@
+/* 1.02身份证 */
+
+.btn {
+    position: fixed;
+    left: 0.175rem;
+    right: 0;
+    bottom: 0.2rem;
+    width: 7.15rem;
+    height: 0.87rem;
+    line-height: 0.87rem;
+    font-size: 0.3rem;
+    color: #FFF;
+    text-align: center;
+    background-color: rgb(209, 209, 211);
+}
+
+.shenfenbg_img {
+    width: 4.95rem;
+    height: 3.12rem;
+    border-radius: 0.1rem;
+}
+
+.first_ul {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+    width: 6.9rem;
+    margin: 0 auto;
+}
+
+.list_item {
+    margin-top: 0.47rem;
+    text-align: center;
+}
+
+.img_box {
+    width: 4.95rem;
+    height: 3.12rem;
+    margin: 0 auto;
+    border-radius: 0.1rem;
+}
+
+.zhengmian_shenfen {
+    background-image: url(../../images/shenzheng@2x.png);
+    -webkit-background-size: 4.95rem 3.12rem;
+    background-size: 4.95rem 3.12rem;
+}
+
+.fanmian_shenfen {
+    background-image: url(../../images/shenfan@2x.png);
+    -webkit-background-size: 4.95rem 3.12rem;
+    background-size: 4.95rem 3.12rem;
+}
+
+.camera_img {
+    margin-top: 0.8rem;
+    width: 1.1rem;
+    height: 1.1rem;
+}
+
+.ops_item {
+    font-size: 0.35rem;
+}
+
+.question_item {
+    font-size: 0.29rem;
+    color: #969696;
+}
+
+.first_ques {
+    margin: 0.1rem 0 0.47rem 0;
+}
+
+.sec_ques {
+    margin-top: 0.6rem;
+}
+
+.shoudong {
+    color: #FF7E00;
+    font-weight: 600;
+}
+
+
+/* 1.01 驾驶证*/
+
+.zhengmian_jiashi {
+    background-image: url(../../images/jichezhengmain@2x.png);
+    -webkit-background-size: 4.95rem 3.12rem;
+    background-size: 4.95rem 3.12rem;
+}
+
+.fanmian_jiashi {
+    background-image: url(../../images/jichefuben@2x.png);
+    -webkit-background-size: 4.95rem 3.12rem;
+    background-size: 4.95rem 3.12rem;
+}
+
+
+/* 1.05驾驶证上传审核成功 */
+
+.tongguo_item {
+    margin: 0.45rem auto;
+}
